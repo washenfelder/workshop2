@@ -1,0 +1,266 @@
+/* SOCIAL */
+
+.social{
+	display: flex;
+	justify-content: space-around;
+}
+.left-side h2{
+	display:inline-block;
+	padding: 10px;
+	color: #afadad;
+	font-family: 'Open Sans', sans-serif;
+}
+.left-side{
+	margin-left: 115px;
+}
+.right-side{
+	margin-right: 115px;
+}
+.right-side i{
+	color: #868484;
+	padding: 10px;
+
+/* HEADER */
+}
+
+header{
+	max-width: 1200px;
+	margin: auto;
+}
+header h2{
+	display: inline-block;
+	padding: 44px;
+	float: left;
+	text-transform: uppercase;
+	font-size: 40px;
+	font-family: 'Open Sans', sans-serif;
+	color: #636363;
+}
+
+header ul{
+	display: inline-block;
+	float: right;
+	padding: 44px;
+}
+header a{
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	color: #656565;
+	padding: 10px;
+}
+b{
+	font-weight: bold;
+}
+header h3{
+	text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    font-size: 42px;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    text-align: center;
+    bottom: 190px;
+}
+
+/* SECCION-PRIMERA */
+
+.seccion-primera{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.seccion-primera h2{
+	text-transform: capitalize;
+	color: #636363;
+	font-size: 40px;
+	padding-bottom: 40px;
+	 font-family: 'Open Sans', sans-serif;
+}
+.last{
+	display: flex;
+	justify-content: center;
+}
+.last div{
+	width: 18%
+}
+.last h3{
+	text-transform: capitalize;
+	color: #636363;
+	font-size: 25px;
+	padding-bottom: 20px;
+}
+.last p{
+	width: 77%;
+}
+.back{
+	background-image: url(http://placehold.it/500x500);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+}
+.cont-circulos{
+	display: flex;
+    width: 63%;
+	padding-bottom: 40px;
+    justify-content: space-around;
+}
+.circulo{
+	border: 2px solid #d5378f;
+	border-radius: 50%;
+	height: 80px;
+	width: 80px;
+	background-color: #FFF;
+	text-align: center;
+	margin-right: 10px;
+}
+
+}
+.fondo{
+	background-color: #d5378f;
+}
+.circulo h3{
+	display: inline-block;
+    position: relative;
+    top: 33px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* SECCION-SEGUNDA */
+.seccion-segunda{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.seccion-segunda span::before {
+    content: "";
+    width: 140px;
+    height: 1px;
+    display: inline-block;
+    background: #ccc;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+.seccion-segunda span::after {
+    content: "";
+    width: 140px;
+    height: 1px;
+    display: inline-block;
+    background: #ccc;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.seccion-segunda i{
+	color: #ccc;
+}
+.seccion-segunda h2{
+	text-transform: capitalize;
+	color: #636363;
+	font-size: 30px;
+	padding-bottom: 40px;
+	font-family: 'Open Sans', sans-serif;
+}
+.tips-container{
+	display: flex;
+	width: 63%;
+	justify-content: space-around;
+	margin-bottom: 70px;
+}
+.tips-container div{
+	text-align: center;
+	
+	padding-top: 40px;
+}
+.tips-container h3{
+	font-size: 60px;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+}
+.tips-container h4{
+	font-size: 17px;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 15px;
+}
+.pink{
+	color: #d5378f;
+}
+.grey{
+	color: #636363;
+}
+
+/* SECCION-TERCERA */
+
+.seccion-tercera{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.seccion-tercera h2{
+	text-transform: capitalize;
+	color: #636363;
+	font-size: 25px;
+	margin-top: 10px;
+	padding-bottom: 30px;
+	 font-family: 'Open Sans', sans-serif;
+}
+.seccion-tercera div{
+	width: 33%;
+    display: flex;
+    justify-content: center;
+}
+.seccion-tercera p{
+	width: 100%;
+	text-align: center;
+}
+.seccion-tercera article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 19px 36px;
+}
+.seccion-tercera img{
+	border-radius: 50%;
+	height: 350px;
+	width: 350px;
+}
+.primer-article h2{
+	color: #d5378f;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.seccion-tercera h3{
+	text-transform: capitalize;
+	color: #918f8f;
+	margin-top: 10px;
+	padding-bottom: 15px;
+	
+	 font-family: 'Open Sans', sans-serif;
+}
+.primer-article h3{
+	color: #918f8f;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+}
+.seccion-tercera p{
+	color: #918f8f;
+
+	
+	 font-family: 'Open Sans', sans-serif;
+}
+/* SECCION-CUARTA */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
